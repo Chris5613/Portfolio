@@ -1,9 +1,14 @@
 import './index.css';
+import Nav from './Components/Nav';
+import About from './Components/About';
+import Skills from './Components/Skills';
 
 function App() {
   return (
     <div>
-      <p>hello</p>
+      <Nav />
+      <About />
+      <Skills />
     </div>
   );
 }
