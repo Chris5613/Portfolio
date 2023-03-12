@@ -99,6 +99,8 @@ About me */
   }
 }
 
+/* Skills */
+
 .skills-section {
   height: auto;
   background-color: #104166;
@@ -106,37 +108,87 @@ About me */
 
 .container h1 {
   font-size: 50px;
-  font-weight: 600;
-  text-align: center
-}
-
-.front-end,
-.back-end, 
-.other {
-  height: 25vh;
-  margin-top: 1rem;
+  text-align: center;
 }
 
 .front-end,
 .back-end,
 .other {
+  margin-top: 1rem;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
+.front-end,
+.back-end,
+.other {
+  height: auto;
+  margin-bottom: 2rem;
+}
+
+.skill-content h3 {
+  margin-top: 3rem;
+}
+
+.skill-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skill-content > div {
+  width: 100%;
+}
+
+.skill-content > div h3 {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+
+.icon {
+  margin: 0.5rem;
+  text-align: center;
+}
 
 .skills-text {
   margin-top: 1rem;
   margin-left: 1rem;
 }
 
-.skills-container {
-  margin-left: 5rem;
+.skill-content h3 {
+  font-weight: 700;
 }
 
-.fastapi-icon {
-  margin-bottom: 0.5rem;;
+@media (max-width: 768px) {
+  .container h1 {
+    font-size: 40px;
+  }
+  
+  .front-end,
+  .back-end,
+  .other {
+    margin-top: 2rem;
+  }
+  
+  .front-end img,
+  .back-end img,
+  .other img {
+    width: 80%;
+    max-width: 100px;
+  }
+
+  
+  .skill-content > div {
+    width: 90%;
+  }
+  
+  .skills-container {
+    margin-left: 0;
+  }
 }
 
-.other img {
-  margin-left: 1rem;
-}
+
+
+

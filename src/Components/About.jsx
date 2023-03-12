@@ -206,6 +206,7 @@ const About = () => {
 					become a Software Engineer.
 				</p>
 				<p>May the force be with you! <i class="fa-solid fa-jedi"></i></p>
+        <hr />
 				</div>
 			</div>
 		</div>
