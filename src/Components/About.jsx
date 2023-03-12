@@ -14,163 +14,163 @@ const About = () => {
 			</div>
 		</div>
 	</div>
-		<div class="at-at">
-      <div class="at-at-content">
-        <div class="at-at-body">
-          <div class="at-at-head">
-            <div class="at-at-neck">
-              <div class="neck-ribs">
-                <div class="neck-cable-first"></div>
-                <div class="neck-cable-second"></div>
-                <div class="neck-cable-last"></div>
+		<div className="at-at">
+      <div className="at-at-content">
+        <div className="at-at-body">
+          <div className="at-at-head">
+            <div className="at-at-neck">
+              <div className="neck-ribs">
+                <div className="neck-cable-first"></div>
+                <div className="neck-cable-second"></div>
+                <div className="neck-cable-last"></div>
                 <i></i><i></i><i></i><i></i>
               </div>
-              <div class="neck-bg"></div>
+              <div className="neck-bg"></div>
             </div>
-            <div class="head-bg">
-              <div class="head-snout">
-                <div class="in-head-snout"></div>
-                <div class="head-snout-gun"></div>
+            <div className="head-bg">
+              <div className="head-snout">
+                <div className="in-head-snout"></div>
+                <div className="head-snout-gun"></div>
               </div>
-              <i class="head-bg-first"></i>
-              <i class="head-bg-second"></i>
+              <i className="head-bg-first"></i>
+              <i className="head-bg-second"></i>
             </div>
-            <div class="head">
-              <div class="head-chin">
-                <i class="head-chin-bg-first"></i>
-                <i class="head-chin-bg-second"></i>
-                <i class="head-gun"></i>
-                <i class="fire"><i></i><i></i><i></i></i>
+            <div className="head">
+              <div className="head-chin">
+                <i className="head-chin-bg-first"></i>
+                <i className="head-chin-bg-second"></i>
+                <i className="head-gun"></i>
+                <i className="fire"><i></i><i></i><i></i></i>
               </div>
             </div>
-            <i class="head-left-bg"></i>
-            <i class="head-top-bg"></i>
+            <i className="head-left-bg"></i>
+            <i className="head-top-bg"></i>
           </div>
-          <div class="at-at-body-left">
-            <i class="at-at-body-left-bg-1"></i>
-            <i class="at-at-body-left-bg-2"></i>
-            <i class="at-at-body-left-bg-3"></i>
-            <i class="at-at-body-left-bg-4"></i>
-            <i class="at-at-body-left-bg-5"></i>
-            <div class="at-at-body-left-bg"></div>
+          <div className="at-at-body-left">
+            <i className="at-at-body-left-bg-1"></i>
+            <i className="at-at-body-left-bg-2"></i>
+            <i className="at-at-body-left-bg-3"></i>
+            <i className="at-at-body-left-bg-4"></i>
+            <i className="at-at-body-left-bg-5"></i>
+            <div className="at-at-body-left-bg"></div>
           </div>
-          <div class="at-at-body-right">
-            <i class="at-at-body-right-bg-1"></i>
-            <i class="at-at-body-right-bg-2"></i>
-            <i class="at-at-body-right-bg-3"></i>
-            <i class="at-at-body-right-bg-4"></i>
-            <i class="at-at-body-right-bg-5"></i>
-            <div class="at-at-body-right-bg"></div>
+          <div className="at-at-body-right">
+            <i className="at-at-body-right-bg-1"></i>
+            <i className="at-at-body-right-bg-2"></i>
+            <i className="at-at-body-right-bg-3"></i>
+            <i className="at-at-body-right-bg-4"></i>
+            <i className="at-at-body-right-bg-5"></i>
+            <div className="at-at-body-right-bg"></div>
           </div>
-          <div class="at-at-body-bottom">
-            <div class="at-at-body-bottom-bg"><i></i><i></i><i></i></div>
-            <div class="body-bottom-left"></div>
+          <div className="at-at-body-bottom">
+            <div className="at-at-body-bottom-bg"><i></i><i></i><i></i></div>
+            <div className="body-bottom-left"></div>
           </div>
-          <div class="at-at-body-bg">
+          <div className="at-at-body-bg">
             <i></i><i></i><i></i><i></i>
-            <div class="i"></div>
+            <div className="i"></div>
           </div>
-          <div class="at-at-body-bg-first-block">
-            <i class="at-at-body-bg-first-block-item-1"></i>
-            <i class="at-at-body-bg-first-block-item-2"></i>
-            <i class="at-at-body-bg-first-block-item-3"></i>
+          <div className="at-at-body-bg-first-block">
+            <i className="at-at-body-bg-first-block-item-1"></i>
+            <i className="at-at-body-bg-first-block-item-2"></i>
+            <i className="at-at-body-bg-first-block-item-3"></i>
           </div>
-          <div class="at-at-body-bg-second-block">
-            <i class="at-at-body-bg-second-block-item-1"></i>
-            <i class="at-at-body-bg-second-block-item-2"></i>
+          <div className="at-at-body-bg-second-block">
+            <i className="at-at-body-bg-second-block-item-1"></i>
+            <i className="at-at-body-bg-second-block-item-2"></i>
           </div>
-          <div class="at-at-body-bg-third-block">
-            <i class="at-at-body-bg-third-block-item-1"></i>
-            <i class="at-at-body-bg-third-block-item-2"></i>
-            <i class="at-at-body-bg-third-block-item-3"></i>
+          <div className="at-at-body-bg-third-block">
+            <i className="at-at-body-bg-third-block-item-1"></i>
+            <i className="at-at-body-bg-third-block-item-2"></i>
+            <i className="at-at-body-bg-third-block-item-3"></i>
           </div>
         </div>
-        <div class="dark-bg">
-          <i class="dark-bg-right"></i>
+        <div className="dark-bg">
+          <i className="dark-bg-right"></i>
         </div>
       </div>
-      <div class="leg-content leg-front">
-        <div class="leg-first-joint"><i></i></div>
-        <div class="leg-first">
-          <i class="leg-first-hr-a"></i>
-          <i class="leg-first-hr-b"></i>
-          <div class="in-first-leg">
-            <div class="leg-second-joint"><i></i></div>
-            <div class="leg-second">
-              <i class="leg-second-hr"></i>
-              <div class="in-second-leg">
-                <div class="foot-joint"><i class="foot-ankle"><i class="foot-ankle-bg"></i></i></div>
-                <div class="foot-ankle-bottom"></div>
-                <div class="foot-ankle-space"></div>
-                <div class="foot">
-                  <div class="foot-bottom"></div>
-                  <div class="foot-land"></div>
+      <div className="leg-content leg-front">
+        <div className="leg-first-joint"><i></i></div>
+        <div className="leg-first">
+          <i className="leg-first-hr-a"></i>
+          <i className="leg-first-hr-b"></i>
+          <div className="in-first-leg">
+            <div className="leg-second-joint"><i></i></div>
+            <div className="leg-second">
+              <i className="leg-second-hr"></i>
+              <div className="in-second-leg">
+                <div className="foot-joint"><i className="foot-ankle"><i className="foot-ankle-bg"></i></i></div>
+                <div className="foot-ankle-bottom"></div>
+                <div className="foot-ankle-space"></div>
+                <div className="foot">
+                  <div className="foot-bottom"></div>
+                  <div className="foot-land"></div>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="leg-content leg-rear">
-        <div class="leg-first-joint"><i></i></div>
-        <div class="leg-first">
-          <i class="leg-first-hr-a"></i>
-          <i class="leg-first-hr-b"></i>
-          <div class="in-first-leg">
-            <div class="leg-second-joint"><i></i></div>
-            <div class="leg-second">
-              <i class="leg-second-hr"></i>
-              <div class="in-second-leg">
-                <div class="foot-joint"><i class="foot-ankle"><i class="foot-ankle-bg"></i></i></div>
-                <div class="foot-ankle-bottom"></div>
-                <div class="foot-ankle-space"></div>
-                <div class="foot">
-                  <div class="foot-bottom"></div>
-                  <div class="foot-land"></div>
+      <div className="leg-content leg-rear">
+        <div className="leg-first-joint"><i></i></div>
+        <div className="leg-first">
+          <i className="leg-first-hr-a"></i>
+          <i className="leg-first-hr-b"></i>
+          <div className="in-first-leg">
+            <div className="leg-second-joint"><i></i></div>
+            <div className="leg-second">
+              <i className="leg-second-hr"></i>
+              <div className="in-second-leg">
+                <div className="foot-joint"><i className="foot-ankle"><i className="foot-ankle-bg"></i></i></div>
+                <div className="foot-ankle-bottom"></div>
+                <div className="foot-ankle-space"></div>
+                <div className="foot">
+                  <div className="foot-bottom"></div>
+                  <div className="foot-land"></div>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="leg-content leg-front-back">
-        <div class="leg-first-joint"><i></i></div>
-        <div class="leg-first">
-          <i class="leg-first-hr-a"></i>
-          <i class="leg-first-hr-b"></i>
-          <div class="in-first-leg">
-            <div class="leg-second-joint"><i></i></div>
-            <div class="leg-second">
-              <i class="leg-second-hr"></i>
-              <div class="in-second-leg">
-                <div class="foot-joint"><i class="foot-ankle"><i class="foot-ankle-bg"></i></i></div>
-                <div class="foot-ankle-bottom"></div>
-                <div class="foot-ankle-space"></div>
-                <div class="foot">
-                  <div class="foot-bottom"></div>
-                  <div class="foot-land"></div>
+      <div className="leg-content leg-front-back">
+        <div className="leg-first-joint"><i></i></div>
+        <div className="leg-first">
+          <i className="leg-first-hr-a"></i>
+          <i className="leg-first-hr-b"></i>
+          <div className="in-first-leg">
+            <div className="leg-second-joint"><i></i></div>
+            <div className="leg-second">
+              <i className="leg-second-hr"></i>
+              <div className="in-second-leg">
+                <div className="foot-joint"><i className="foot-ankle"><i className="foot-ankle-bg"></i></i></div>
+                <div className="foot-ankle-bottom"></div>
+                <div className="foot-ankle-space"></div>
+                <div className="foot">
+                  <div className="foot-bottom"></div>
+                  <div className="foot-land"></div>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="leg-content leg-rear-back">
-        <div class="leg-first-joint"><i></i></div>
-        <div class="leg-first">
-          <i class="leg-first-hr-a"></i>
-          <i class="leg-first-hr-b"></i>
-          <div class="in-first-leg">
-            <div class="leg-second-joint"><i></i></div>
-            <div class="leg-second">
-              <i class="leg-second-hr"></i>
-              <div class="in-second-leg">
-                <div class="foot-joint"><i class="foot-ankle"><i class="foot-ankle-bg"></i></i></div>
-                <div class="foot-ankle-bottom"></div>
-                <div class="foot-ankle-space"></div>
-                <div class="foot">
-                  <div class="foot-bottom"></div>
-                  <div class="foot-land"></div>
+      <div className="leg-content leg-rear-back">
+        <div className="leg-first-joint"><i></i></div>
+        <div className="leg-first">
+          <i className="leg-first-hr-a"></i>
+          <i className="leg-first-hr-b"></i>
+          <div className="in-first-leg">
+            <div className="leg-second-joint"><i></i></div>
+            <div className="leg-second">
+              <i className="leg-second-hr"></i>
+              <div className="in-second-leg">
+                <div className="foot-joint"><i className="foot-ankle"><i className="foot-ankle-bg"></i></i></div>
+                <div className="foot-ankle-bottom"></div>
+                <div className="foot-ankle-space"></div>
+                <div className="foot">
+                  <div className="foot-bottom"></div>
+                  <div className="foot-land"></div>
                 </div>						
               </div>
             </div>
@@ -179,40 +179,40 @@ const About = () => {
       </div>
   </div>
 		
-		<div class="bg">
-			<i class="star star-4"></i>
-			<i class="star star-5"></i>
-			<i class="star star-6"></i>
-			<i class="star-small star-small-1"></i>
-			<i class="star-small star-small-2"></i>
-			<i class="star-small star-small-3"></i>
+		<div className="bg">
+			<i className="star star-4"></i>
+			<i className="star star-5"></i>
+			<i className="star star-6"></i>
+			<i className="star-small star-small-1"></i>
+			<i className="star-small star-small-2"></i>
+			<i className="star-small star-small-3"></i>
 	
 		
 		</div>
-		<i class="moon"></i>
-		<i class="mountain-first">
-			<i class="mountain-shadow"></i>
+		<i className="moon"></i>
+		<i className="mountain-first">
+			<i className="mountain-shadow"></i>
 		</i>
-		<i class="mountain-second">
-			<i class="mountain-shadow"></i>
-			<span class="mountain-top"></span>
+		<i className="mountain-second">
+			<i className="mountain-shadow"></i>
+			<span className="mountain-top"></span>
 		</i>
-		<div class="first-bg">
-			<div class="first-bg-anim">
+		<div className="first-bg">
+			<div className="first-bg-anim">
 				<div className='about-content about-me'>
 				<p>
 					At a young age, I found a passion for creating things in the form of 
 					Star Wars Legos and as I grew, that passion grew with me which lead me to 
 					become a Software Engineer.
 				</p>
-				<p>May the force be with you! <i class="fa-solid fa-jedi"></i></p>
+				<p>May the force be with you! <i className="fa-solid fa-jedi"></i></p>
         <hr />
 				</div>
 			</div>
 		</div>
-		<div class="space-ship space-ship-small">
-      <i class="space-ship-wing"></i>
-      <i class="space-ship-bg"><i class="space-ship-gun"></i></i>
+		<div className="space-ship space-ship-small">
+      <i className="space-ship-wing"></i>
+      <i className="space-ship-bg"><i className="space-ship-gun"></i></i>
 		</div>
 	</section>
   )
