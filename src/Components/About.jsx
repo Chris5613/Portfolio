@@ -201,8 +201,8 @@ const About = () => {
 			<div class="first-bg-anim">
 				<div className='about-content about-me'>
 				<p>
-					At a young age, I found a passionate for creating things in the forms of 
-					tinkering with Star Wars legos and as I grew that passion grew with me which lead to 
+					At a young age, I found a passion for creating things in the form of 
+					Star Wars Legos and as I grew, that passion grew with me which lead me to 
 					become a Software Engineer.
 				</p>
 				<p>May the force be with you! <i class="fa-solid fa-jedi"></i></p>
