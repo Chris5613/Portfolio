@@ -1,8 +1,19 @@
 import React from 'react'
+import '../AT.css'
 
 const About = () => {
   return (
 <section className="about">
+	<div className="container">
+		<div>
+			<div>
+				<div className="about-content">
+					<h1>Hey I'm Christian!</h1>
+					<img src="https://freepngimg.com/save/99069-baby-cute-star-wars-yoda/800x600" alt="yoda" width={200}/>
+				</div>
+			</div>
+		</div>
+	</div>
 		<div class="at-at">
       <div class="at-at-content">
         <div class="at-at-body">
@@ -169,22 +180,14 @@ const About = () => {
   </div>
 		
 		<div class="bg">
-			<i class="star star-1"></i>
-			<i class="star star-2"></i>
-			<i class="star star-3"></i>
 			<i class="star star-4"></i>
 			<i class="star star-5"></i>
 			<i class="star star-6"></i>
 			<i class="star-small star-small-1"></i>
 			<i class="star-small star-small-2"></i>
 			<i class="star-small star-small-3"></i>
-			<i class="star-small star-small-4"></i>
-			<i class="star-small star-small-5"></i>
-			<i class="star-small star-small-6"></i>
-			<i class="star-small star-small-7"></i>
-			<i class="star-small star-small-8"></i>
-			<i class="star-small star-small-9"></i>
-			<i class="star-small star-small-10"></i>
+	
+		
 		</div>
 		<i class="moon"></i>
 		<i class="mountain-first">
@@ -196,19 +199,17 @@ const About = () => {
 		</i>
 		<div class="first-bg">
 			<div class="first-bg-anim">
-				<i class="first"></i>
-				<i class="second"></i>
-				<i class="third"></i>
-				<i class="last"></i>
-			</div>
-			<div class="second-bg-anim">
+				<div className='about-content about-me'>
+				<p>
+					At a young age, I found a passionate for creating things in the forms of 
+					tinkering with Star Wars legos and as I grew that passion grew with me which lead to 
+					become a Software Engineer.
+				</p>
+				<p>May the force be with you! <i class="fa-solid fa-jedi"></i></p>
+				</div>
 			</div>
 		</div>
 		<div class="space-ship space-ship-small">
-      <i class="space-ship-wing"></i>
-      <i class="space-ship-bg"><i class="space-ship-gun"></i></i>
-		</div>
-		<div class="space-ship space-ship-big">
       <i class="space-ship-wing"></i>
       <i class="space-ship-bg"><i class="space-ship-gun"></i></i>
 		</div>
