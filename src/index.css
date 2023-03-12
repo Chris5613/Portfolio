@@ -12,6 +12,20 @@ html {
   scroll-behavior: smooth;
 }
 
+body::-webkit-scrollbar {
+  width: 4px;
+}
+
+body::-webkit-scrollbar-track {
+  background: rgb(1, 1, 0);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(0, 0, 0);
+  border-radius: 20px;
+  border: 3px solid rgb(0, 0, 0);
+}
+
 /* Nav  */
 
 .nav {
@@ -29,8 +43,8 @@ html {
 .nav-group {
   margin-bottom: 4px;
 }
-/* 
-About me */
+
+/* About me */
 
 .resume-btn {
   background-color: rgb(11, 66, 219);
@@ -78,7 +92,7 @@ About me */
   }
 
   .about-me p {
-    font-size: 15px;
+    font-size: 13px;
   }
 }
 
@@ -128,7 +142,7 @@ About me */
 .back-end,
 .other {
   height: auto;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 
 .skill-content h3 {
@@ -193,6 +207,73 @@ About me */
   }
 }
 
+/* Projects */
+
+.projects-section {
+  height: 100vh;
+  background-color: #104166;
+}
+
+.projects-section h1 {
+  font-size: 50px;
+  padding-top: 25px;
+}
+
+#portfolio .portfolio-item-wrapper {
+  width: 31%;
+  margin: 0 1% 30px;
+}
+
+#portfolio .portfolio-item {
+  display: block;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.148438) 0 1px 2px;
+  box-shadow: rgba(0, 0, 0, 0.148438) 0 1px 2px;
+  padding: 0;
+  margin-bottom: 10px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+#portfolio .portfolio-item img {
+  max-width: 100%;
+  width: 100%;
+  opacity: 1.0;
+  transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -webkit-transition: 0.3s ease-in-out;
+}
+
+#portfolio .links {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 36%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  margin: 0 auto;
+  opacity: 0;
+}
 
 
+#portfolio .portfolio-item:hover .portfolio-overlay,
+#portfolio .portfolio-item:hover .links {
+  opacity: 1;
+  -webkit-transform: translate(0, 0);
+  -moz-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  -o-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
 
+#portfolio .portfolio-item:hover .portfolio-info {
+  bottom: 0;
+}
+
+#portfolio .portfolio-info h3 {
+  font-size: 14px;
+  line-height: 45px;
+  font-weight: 400;
+  margin: 0;
+}

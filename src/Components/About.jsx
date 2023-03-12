@@ -1,14 +1,21 @@
-import React from 'react'
+import { useEffect } from 'react'
 import '../AT.css'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 const About = () => {
+
+  useEffect(() => {
+    Aos.init({duration: 1100})
+  },[])
+
   return (
 <section className="about">
 	<div className="container">
 		<div>
 			<div>
 				<div className="about-content">
-					<h1>Hey I'm Christian!</h1>
+					<h1 data-aos="zoom-in-right">Hey I'm Christian!</h1>
 					<img src="https://freepngimg.com/save/99069-baby-cute-star-wars-yoda/800x600" alt="yoda" width={200}/>
 				</div>
 			</div>
