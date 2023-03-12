@@ -12,8 +12,8 @@ const Nav = () => {
       <div className="navbar-nav nav-group">
         <a className="nav-link jedi links" aria-current="page" href="/">Home</a>
         <a className="nav-link sith links" href="#skills">Skills</a>
-        <a className="nav-link jedi links" href="/">Projects</a>
-        <a className="nav-link sith links" href="/">Contact</a>
+        <a className="nav-link jedi links" href="#projects">Projects</a>
+        <a className="nav-link sith links" href="#contact">Contact</a>
       </div>
     </div>
   </div>
