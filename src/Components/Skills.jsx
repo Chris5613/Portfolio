@@ -10,7 +10,7 @@ const Skills = () => {
   },[])
 
   return (
-	<section className="skills-section">
+	<section className="skills-section" id='skills'>
     <div className="container">
           <div>
             <h1>Tech Stack</h1>

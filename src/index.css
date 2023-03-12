@@ -8,6 +8,10 @@
   color: white;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* Nav  */
 
 .nav {

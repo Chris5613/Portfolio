@@ -11,10 +11,9 @@ const Nav = () => {
     <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div className="navbar-nav nav-group">
         <a className="nav-link jedi links" aria-current="page" href="/">Home</a>
-        <a className="nav-link sith links" href="/">About</a>
-        <a className="nav-link jedi links" href="/skills">Skills</a>
-        <a className="nav-link sith links" href="/">Projects</a>
-        <a className="nav-link jedi links" href="/">Contact</a>
+        <a className="nav-link sith links" href="#skills">Skills</a>
+        <a className="nav-link jedi links" href="/">Projects</a>
+        <a className="nav-link sith links" href="/">Contact</a>
       </div>
     </div>
   </div>
