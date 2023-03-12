@@ -106,7 +106,6 @@ About me */
 
 .container h1 {
   font-size: 50px;
-  margin: auto;
   font-weight: 600;
   text-align: center
 }
@@ -118,10 +117,26 @@ About me */
   margin-top: 1rem;
 }
 
-.html-logo {
-  margin-right: 2rem;
+.front-end,
+.back-end,
+.other {
+  display: flex;
 }
 
-.python-logo {
-  margin-right: 1rem;
+
+.skills-text {
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+.skills-container {
+  margin-left: 5rem;
+}
+
+.fastapi-icon {
+  margin-bottom: 0.5rem;;
+}
+
+.other img {
+  margin-left: 1rem;
 }
