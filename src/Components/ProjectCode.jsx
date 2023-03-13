@@ -17,7 +17,7 @@ const Project = ({photo,text, name, link, tech1,tech2,tech3}) => {
                 {photo}
               </div>
               <div className='project-info'>
-                <h2>{name}<a  href={link} target="_blank" rel="noreferrer noopener"><img src="https://i.gyazo.com/2db65378e24e4795fa1950b1b25c6dc0.png" width={45} alt="github-icon"/></a></h2>
+                <h2>{name}<a href={link} target="_blank" rel="noreferrer noopener"><img src="https://i.gyazo.com/2db65378e24e4795fa1950b1b25c6dc0.png" width={50} alt="github-icon"/></a></h2>
                 <p>{text}</p>
                 <div className='tech-used'>
                   <p>{tech1}</p>
