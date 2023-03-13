@@ -117,6 +117,17 @@ body::-webkit-scrollbar-thumb {
   }
 }
 
+.divider {
+    width: 100%;
+    min-height: 130px;
+    background: #00909c;
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 25px;
+    text-decoration: none;
+}
+
 /* Skills */
 
 .skills-section {
@@ -127,6 +138,10 @@ body::-webkit-scrollbar-thumb {
 .container h1 {
   font-size: 50px;
   text-align: center;
+}
+
+#title {
+  padding-top: 15px;
 }
 
 .front-end,
@@ -262,6 +277,10 @@ body::-webkit-scrollbar-thumb {
 .project-info p {
   font-size: 20px;
   font-weight: 400;
+}
+
+.portfolio-row {
+  margin-bottom: 4rem;
 }
 
 .tech-used {

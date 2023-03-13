@@ -1,9 +1,15 @@
-import React from 'react'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
+import { useEffect } from 'react'
 
-const Project = ({photo,text, name, link, tech1,tech2,tech3,tech4}) => {
+const Project = ({photo,text, name, link, tech1,tech2,tech3}) => {
+
+  useEffect(() => {
+    Aos.init({duration: 2000})
+  },[])
   return (
     <>
-      <div className="row portfolio-row">
+      <div className="row portfolio-row" data-aos="fade-up">
         <div className="portfolio-item-wrapper wp5 ">
           <div className="portfolio-item">
             <div className="project-div">

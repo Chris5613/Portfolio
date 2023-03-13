@@ -2,6 +2,7 @@ import { useEffect } from 'react'
 import '../AT.css'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
+import pdf from '../Assests/ChristianResume.pdf'
 
 const About = () => {
 
@@ -16,7 +17,6 @@ const About = () => {
 			<div>
 				<div className="about-content">
 					<h1 data-aos="zoom-in-right">Hey I'm Christian!</h1>
-					<img src="https://freepngimg.com/save/99069-baby-cute-star-wars-yoda/800x600" alt="yoda" width={200}/>
 				</div>
 			</div>
 		</div>
@@ -213,8 +213,12 @@ const About = () => {
 					become a Software Engineer.
 				</p>
 				<p>May the force be with you! <i className="fa-solid fa-jedi"></i></p>
-        <hr />
 				</div>
+        <div className='divider'>
+          <a href={pdf} rel="noreferrer" target="_blank"> 
+          <p>VIEW MY FULL RESUME</p> 
+          </a>
+        </div>
 			</div>
 		</div>
 		<div className="space-ship space-ship-small">

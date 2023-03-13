@@ -37,6 +37,11 @@ const Projects = () => {
           />
         </div>
       </div>
+      <div className='divider'>
+          <a href="https://github.com/Chris5613" rel="noreferrer" target="_blank"> 
+          <p>SEE MORE PROJECTS</p> 
+          </a>
+        </div>
     </section>
     </>
   )
