@@ -210,32 +210,26 @@ body::-webkit-scrollbar-thumb {
 /* Projects */
 
 .projects-section {
-  height: 100vh;
+  height: auto;
   background-color: #104166;
 }
 
 .projects-section h1 {
   font-size: 50px;
-  padding-top: 25px;
+}
+
+.portfolio-info p {
+  font-size: 20px;
+  font-weight: 600;
 }
 
 #portfolio .portfolio-item-wrapper {
-  width: 31%;
-  margin: 0 1% 30px;
+  width: 75%;
+  margin: 0 auto;
 }
 
-#portfolio .portfolio-item {
-  display: block;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.148438) 0 1px 2px;
-  box-shadow: rgba(0, 0, 0, 0.148438) 0 1px 2px;
-  padding: 0;
-  margin-bottom: 10px;
-  cursor: pointer;
-  position: relative;
-  overflow: hidden;
-}
 
-#portfolio .portfolio-item img {
+#portfolio .project-img img {
   max-width: 100%;
   width: 100%;
   opacity: 1.0;
@@ -244,36 +238,76 @@ body::-webkit-scrollbar-thumb {
   -webkit-transition: 0.3s ease-in-out;
 }
 
-#portfolio .links {
-  width: 40px;
-  height: 40px;
-  position: absolute;
-  top: 36%;
-  left: 0;
-  right: 0;
-  text-align: center;
-  margin: 0 auto;
-  opacity: 0;
+.portfolio-item {
+  margin-top: 2rem;
 }
 
-
-#portfolio .portfolio-item:hover .portfolio-overlay,
-#portfolio .portfolio-item:hover .links {
-  opacity: 1;
-  -webkit-transform: translate(0, 0);
-  -moz-transform: translate(0, 0);
-  -ms-transform: translate(0, 0);
-  -o-transform: translate(0, 0);
-  transform: translate(0, 0);
+.project-info h2,
+.project-info p {
+  margin-top: 2rem;
 }
 
-#portfolio .portfolio-item:hover .portfolio-info {
-  bottom: 0;
+.project-info h2 {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 25px;
 }
 
-#portfolio .portfolio-info h3 {
-  font-size: 14px;
-  line-height: 45px;
+.project-info button {
+  background-color: rgb(0, 0, 0);
+  border-radius: 25px;
+  width: 10%;
+}
+
+.project-info p {
+  font-size: 20px;
   font-weight: 400;
-  margin: 0;
+}
+
+.tech-used {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2rem;
+}
+
+.tech {
+  margin-left: 2rem;
+}
+
+.tech-used p{
+  background-color: lightgray;
+  width: auto;
+  text-align: center;
+  font-weight: 600;
+  color: #000000;
+}
+
+.project-img {
+  margin-top: 2.5rem;
+  margin-right: 5rem;
+  min-width: auto;
+  
+}
+
+.project-div {
+  display:flex;
+  flex-direction: row;
+}
+
+@media (max-width: 768px) {
+  #title {
+    font-size: 35px;
+    padding-top: 5rem;
+  }
+  .project-info p {
+    font-size: 15px;
+  }
+  .project-info a img {
+    width: 20%;
+    margin-left: 4rem;
+  }
+  .project-img {
+    margin-top: 7rem;
+    margin-right: 1rem;
+  }
 }
