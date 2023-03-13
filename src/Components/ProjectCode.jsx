@@ -2,10 +2,13 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 
-const Project = ({ photo, text, name, link, tech1, tech2, tech3 }) => {
+const Project = ({ photo, text, name, link, tech1, tech2, tech3, live }) => {
   useEffect(() => {
     Aos.init({ duration: 2000 });
   }, []);
+
+
+
   return (
     <>
       <div className="row portfolio-row" data-aos="fade-up">
@@ -30,6 +33,7 @@ const Project = ({ photo, text, name, link, tech1, tech2, tech3 }) => {
                   <p className="tech">{tech2}</p>
                   <p className="tech">{tech3}</p>
                 </div>
+                <a href={live} target="_blank" rel="noreferrer noopener"><button className="live-btn btn btn-primary">Live</button></a>
               </div>
             </div>
           </div>

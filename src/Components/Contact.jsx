@@ -22,7 +22,7 @@ const Contact = () => {
             <h3>Reach out!</h3>
             <form
               target="_blank"
-              action="https://formsubmit.co/613e0c83718961efbcfec76093399e7b"
+              action="https://formsubmit.co/christianwu58@gmail.com"
               method="POST"
             >
               <div className="form-outline mb-4">

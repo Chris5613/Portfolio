@@ -24,8 +24,9 @@ const Projects = () => {
               tech1="React"
               tech2="FastAPI"
               tech3="Postgres"
+              live="https://gamerconnect.gitlab.io/module3-project-gamma/"
             />
-            <Project
+            {/* <Project
               photo={
                 <img
                   src="https://i.gyazo.com/9e297ef8fc89ab59f6d66f6764b7782c.png"
@@ -39,7 +40,7 @@ const Projects = () => {
               tech1="React"
               tech2="Django"
               tech3="Docker"
-            />
+            /> */}
             <Project
               photo={
                 <img
@@ -54,6 +55,7 @@ const Projects = () => {
               tech1="React"
               tech2="Django"
               tech3="Postgres"
+              live="https://www.christianwu.dev/weather-tracker/"
             />
           </div>
         </div>
