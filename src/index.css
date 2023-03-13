@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@300;600&family=Montserrat:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@300;600&family=Montserrat:wght@300&display=swap");
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: white;
 }
 
@@ -125,14 +125,14 @@ body::-webkit-scrollbar-thumb {
 }
 
 .divider {
-    width: 100%;
-    min-height: 130px;
-    background: #00909c;
-    font-size: 2rem;
-    font-weight: 700;
-    text-align: center;
-    padding-top: 25px;
-    text-decoration: none;
+  width: 100%;
+  min-height: 130px;
+  background: #00909c;
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 25px;
+  text-decoration: none;
 }
 
 /* Skills */
@@ -186,7 +186,6 @@ body::-webkit-scrollbar-thumb {
   margin-bottom: 0.5rem;
 }
 
-
 .icon {
   margin: 0.5rem;
   text-align: center;
@@ -205,13 +204,13 @@ body::-webkit-scrollbar-thumb {
   .skills-container h1 {
     font-size: 40px;
   }
-  
+
   .front-end,
   .back-end,
   .other {
     margin-top: 2rem;
   }
-  
+
   .front-end img,
   .back-end img,
   .other img {
@@ -219,11 +218,10 @@ body::-webkit-scrollbar-thumb {
     max-width: 100px;
   }
 
-  
   .skill-content > div {
     width: 90%;
   }
-  
+
   .skills-container {
     margin-left: 0;
   }
@@ -256,11 +254,10 @@ body::-webkit-scrollbar-thumb {
   margin: 0 auto;
 }
 
-
 #portfolio .project-img img {
   max-width: 100%;
   width: 100%;
-  opacity: 1.0;
+  opacity: 1;
   transition: 0.3s ease-in-out;
   -moz-transition: 0.3s ease-in-out;
   -webkit-transition: 0.3s ease-in-out;
@@ -306,7 +303,7 @@ body::-webkit-scrollbar-thumb {
   margin-left: 2rem;
 }
 
-.tech-used p{
+.tech-used p {
   background-color: lightgray;
   width: auto;
   text-align: center;
@@ -318,11 +315,10 @@ body::-webkit-scrollbar-thumb {
   margin-top: 2.5rem;
   margin-right: 5rem;
   min-width: 100px;
-  
 }
 
 .project-div {
-  display:flex;
+  display: flex;
   flex-direction: row;
 }
 
@@ -351,7 +347,7 @@ body::-webkit-scrollbar-thumb {
   padding: 3%;
 }
 
-.contact-section h1{
+.contact-section h1 {
   font-size: 50px;
   text-align: center;
   padding-top: 24px;
@@ -384,7 +380,6 @@ body::-webkit-scrollbar-thumb {
   font-size: 50px;
   text-align: center;
   padding-top: 150px;
-  
 }
 
 /* make contact moblie responsive */
@@ -406,4 +401,21 @@ body::-webkit-scrollbar-thumb {
     padding-top: 30px;
     margin-bottom: 6rem;
   }
+}
+
+
+/* Footer */
+.footer-divider {
+  width: auto;
+  height: auto;
+  background: #00909c;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  margin: 0;
+  padding-bottom: 20px;
+}
+
+.footer-divider  p {
+  font-size: 15px;
 }
