@@ -51,11 +51,11 @@ const Projects = () => {
               name="Weather Tracker"
               text="Weather Tracker is a web application that can be used to track the weather of any city, It sends a request to the OpenWeather API and
           returns the weather data for the city that was searched for."
-              link="https://github.com/Chris5613/App-Manager/tree/main/frontend"
+              link="https://github.com/Chris5613/Weather-Tracker"
               tech1="React"
               tech2="Django"
               tech3="Postgres"
-              live="https://www.christianwu.dev/weather-tracker/"
+              live="https://www.christianwu.dev/Weather-Tracker/"
             />
           </div>
         </div>
