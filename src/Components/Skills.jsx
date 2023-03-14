@@ -42,16 +42,6 @@ const Skills = () => {
             <Icons
               icon={
                 <img
-                  src="https://i.gyazo.com/e0f9ab3cdaf18cc5beb1770402ca2e1c.png"
-                  alt="bootstrap"
-                  width={110}
-                />
-              }
-              text="Bootstrap"
-            />
-            <Icons
-              icon={
-                <img
                   src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
                   alt="javascript"
                   width={95}
@@ -87,16 +77,6 @@ const Skills = () => {
             <Icons
               icon={
                 <img
-                  src="https://i.gyazo.com/86d094071fcf6848940b02a89f6fb2b3.png"
-                  alt="djangoRF"
-                  width={130}
-                />
-              }
-              text="Django Rest"
-            />
-            <Icons
-              icon={
-                <img
                   src="https://cdn.worldvectorlogo.com/logos/fastapi.svg"
                   className="fastapi-icon"
                   alt="fastapi"
@@ -128,7 +108,7 @@ const Skills = () => {
             />
           </div>
           <h3>
-            <u>Misc</u>
+            <u>Misc / Tools</u>
           </h3>
           <div className="other" data-aos="fade-right">
             <Icons
@@ -160,26 +140,6 @@ const Skills = () => {
                 />
               }
               text="Git"
-            />
-            <Icons
-              icon={
-                <img
-                  src="https://i.gyazo.com/fcc68a3f4e10fdce1471ed973c5e7730.png"
-                  alt="SQL"
-                  width={100}
-                />
-              }
-              text="SQL"
-            />
-            <Icons
-              icon={
-                <img
-                  src="https://i.gyazo.com/97fd7183e78bde46fe770686de0294a6.png"
-                  alt="RabbitMQ"
-                  width={100}
-                />
-              }
-              text="RabbitMQ"
             />
           </div>
           <hr />
