@@ -27,15 +27,15 @@ const Contact = () => {
             >
               <div className="form-outline mb-4">
                 <label className="form-label">Name</label>
-                <input type="text" required className="form-control" />
+                <input type="text" name="name" required className="form-control" />
               </div>
               <div className="form-outline mb-4">
                 <label className="form-label">Email address</label>
-                <input type="email" required className="form-control" />
+                <input type="email" name="email" required className="form-control" />
               </div>
               <div className="form-outline mb-4">
                 <label className="form-label">Message</label>
-                <textarea className="form-control" required rows="4"></textarea>
+                <textarea className="form-control" name="message" required rows="4"></textarea>
               </div>
               <button type="submit" className="btn btn-primary btn-block mb-4">
                 Send
