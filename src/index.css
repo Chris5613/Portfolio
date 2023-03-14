@@ -339,7 +339,11 @@ body::-webkit-scrollbar-thumb {
     margin-top: 7rem;
     margin-right: 1rem;
   }
+  .live-btn {
+    width: auto;
+  }
 }
+
 
 /* Contact  */
 .contact-section {
