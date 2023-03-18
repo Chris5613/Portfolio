@@ -26,21 +26,6 @@ const Projects = () => {
               tech3="Postgres"
               live="https://gamerconnect.gitlab.io/module3-project-gamma/"
             />
-            {/* <Project
-              photo={
-                <img
-                  src="https://i.gyazo.com/9e297ef8fc89ab59f6d66f6764b7782c.png"
-                  alt="carcar"
-                />
-              }
-              name="CarCar"
-              text="CarCar is a web application that handles interactions between a dealership and its customers. 
-          Provides inventory tracking of car models, vehicle sales/history and service appointments board/logs."
-              link="https://github.com/Chris5613/Lux-Motors"
-              tech1="React"
-              tech2="Django"
-              tech3="Docker"
-            /> */}
             <Project
               photo={
                 <img
@@ -53,8 +38,6 @@ const Projects = () => {
           returns the weather data for the city that was searched for."
               link="https://github.com/Chris5613/Weather-Tracker"
               tech1="React"
-              tech2="Django"
-              tech3="Postgres"
               live="https://www.christianwu.dev/Weather-Tracker/"
             />
           </div>

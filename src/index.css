@@ -243,6 +243,19 @@ body::-webkit-scrollbar-thumb {
   }
 }
 
+.node-icon,
+.fastapi-icon,
+.mongo-icon,
+.postgres-icon,
+.django-icon,
+.skills-text {
+  margin-left: 1rem;
+}
+
+.mongo-icon {
+  margin-bottom: 0.5rem;
+}
+
 /* Projects */
 
 .projects-section {

@@ -42,6 +42,17 @@ const Skills = () => {
             <Icons
               icon={
                 <img
+                  src="https://i.gyazo.com/e0f9ab3cdaf18cc5beb1770402ca2e1c.png"
+                  alt="css"
+                  className="bootstrap-icon"
+                  width={110}
+                />
+              }
+              text="Bootstrap"
+            />
+            <Icons
+              icon={
+                <img
                   src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
                   alt="javascript"
                   width={95}
@@ -70,6 +81,7 @@ const Skills = () => {
                   src="https://framagit.org/uploads/-/system/project/avatar/28062/django.png"
                   alt="django"
                   width={90}
+                  className="django-icon"
                 />
               }
               text="Django"
@@ -88,6 +100,28 @@ const Skills = () => {
             <Icons
               icon={
                 <img
+                  src="https://i.gyazo.com/2b0ddcbf72753928aa5ca0f8d06c0cfa.png"
+                  alt="Node.js"
+                  className="node-icon"
+                  width={80}
+                />
+              }
+              text="Node.js"
+            />
+            <Icons
+              icon={
+                <img
+                  src="https://i.gyazo.com/f6ab376de47fb84be8fd030da6ee12ea.png"
+                  alt="MongoDB"
+                  className="mongo-icon"
+                  width={100}
+                />
+              }
+              text="MongoDB"
+            />
+            <Icons
+              icon={
+                <img
                   src="https://i.gyazo.com/a9726507548eef637311b50621c9b5bf.png"
                   alt="postgres"
                   className="postgres-icon"
@@ -95,16 +129,6 @@ const Skills = () => {
                 />
               }
               text="Postgres"
-            />
-            <Icons
-              icon={
-                <img
-                  src="https://i.gyazo.com/f6ab376de47fb84be8fd030da6ee12ea.png"
-                  alt="MongoDB"
-                  width={100}
-                />
-              }
-              text="MongoDB"
             />
           </div>
           <h3>
