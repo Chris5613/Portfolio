@@ -211,20 +211,15 @@ body::-webkit-scrollbar-thumb {
 
 @media (max-width: 768px) {
 
-  .skills-section h3 {
-    margin-left: 4rem;
-  }
 
   .skills-container h1 {
     font-size: 40px;
-    margin-left: 4.5rem;
   }
 
   .front-end,
   .back-end,
   .other {
     margin-top: 2rem;
-    margin-left: 10rem;
   }
 
   .front-end img,
@@ -239,7 +234,7 @@ body::-webkit-scrollbar-thumb {
   }
 
   .skills-container {
-    margin-left: 0;
+    margin: 0 auto;
   }
 }
 
