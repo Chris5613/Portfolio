@@ -40,6 +40,23 @@ const Projects = () => {
               tech1="React"
               live="https://www.christianwu.dev/Weather-Tracker/"
             />
+            <Project
+              photo={
+                <img
+                  src="https://i.gyazo.com/835c3aa09f994d16810809aee7639712.png"
+                  alt="User-auth"
+                />
+              }
+              name="User Auth"
+              link="https://github.com/Chris5613/User-Auth"
+              text="Using the MERN stack, this is a application to show user authorization with JWT token. 
+              The JWT tokens are kept in local storage, gets created when you login and deleted when logged out. "
+              tech1="MongoDB"
+              tech2="Express"
+              tech3="React"
+              tech4="Node"
+              live="https://f-auth.onrender.com/"
+            />
           </div>
         </div>
         <div className="divider">
@@ -48,6 +65,7 @@ const Projects = () => {
             rel="noreferrer"
             target="_blank"
           >
+            
             <p>SEE MORE PROJECTS</p>
           </a>
         </div>

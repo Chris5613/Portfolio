@@ -2,7 +2,7 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 
-const Project = ({ photo, text, name, link, tech1, tech2, tech3, live }) => {
+const Project = ({ photo, text, name, link, tech1, tech2, tech3, live,tech4 }) => {
   useEffect(() => {
     Aos.init({ duration: 2000 });
   }, []);
@@ -32,6 +32,7 @@ const Project = ({ photo, text, name, link, tech1, tech2, tech3, live }) => {
                   <p>{tech1}</p>
                   <p className="tech">{tech2}</p>
                   <p className="tech">{tech3}</p>
+                  <p className="tech">{tech4}</p>
                 </div>
                 <a href={live} target="_blank" rel="noreferrer noopener"><button className="live-btn btn btn-primary">Live</button></a>
               </div>
