@@ -19,13 +19,6 @@ const Project = ({ photo, text, name, link, tech1, tech2, tech3, live,tech4 }) =
               <div className="project-info">
                 <h2>
                   {name}
-                  <a href={link} target="_blank" rel="noreferrer noopener">
-                    <img
-                      src="https://i.gyazo.com/2db65378e24e4795fa1950b1b25c6dc0.png"
-                      width={50}
-                      alt="github-icon"
-                    />
-                  </a>
                 </h2>
                 <p>{text}</p>
                 <div className="tech-used">
@@ -35,6 +28,14 @@ const Project = ({ photo, text, name, link, tech1, tech2, tech3, live,tech4 }) =
                   <p className="tech">{tech4}</p>
                 </div>
                 <a href={live} target="_blank" rel="noreferrer noopener"><button className="live-btn btn btn-primary">Live</button></a>
+                <a href={link} target="_blank" rel="noreferrer noopener">
+                    <img
+                      src="https://i.gyazo.com/2db65378e24e4795fa1950b1b25c6dc0.png"
+                      width={40}
+                      alt="github-icon"
+                      className="github-icon"
+                    />
+                  </a>
               </div>
             </div>
           </div>

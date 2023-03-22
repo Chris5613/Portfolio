@@ -347,6 +347,11 @@ body::-webkit-scrollbar-thumb {
   margin-top: 1rem;
 }
 
+.github-icon {
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
 @media (max-width: 768px) {
   #title {
     font-size: 35px;

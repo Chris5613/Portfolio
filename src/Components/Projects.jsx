@@ -38,6 +38,7 @@ const Projects = () => {
           returns the weather data for the city that was searched for."
               link="https://github.com/Chris5613/Weather-Tracker"
               tech1="React"
+              tech2="Bootstrap"
               live="https://www.christianwu.dev/Weather-Tracker/"
             />
             <Project
