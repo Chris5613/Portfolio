@@ -267,11 +267,6 @@ body::-webkit-scrollbar-thumb {
   font-weight: 600;
 }
 
-@media screen and (max-width: 375px) {
-  .projects-container {
-    margin-right: 14rem;
-  }
-}
 
 #portfolio .portfolio-item-wrapper {
   width: 75%;
@@ -282,9 +277,6 @@ body::-webkit-scrollbar-thumb {
   max-width: 100%;
   width: 100%;
   opacity: 1;
-  transition: 0.3s ease-in-out;
-  -moz-transition: 0.3s ease-in-out;
-  -webkit-transition: 0.3s ease-in-out;
 }
 
 .portfolio-item {
@@ -332,7 +324,6 @@ body::-webkit-scrollbar-thumb {
 .project-img {
   margin-top: 2.5rem;
   margin-right: 5rem;
-  min-width: 100px;
 }
 
 .project-div {
@@ -350,6 +341,7 @@ body::-webkit-scrollbar-thumb {
 .github-icon {
   margin-left: 15px;
   margin-top: 15px;
+  width: 40px;
 }
 
 @media (max-width: 768px) {
@@ -367,6 +359,7 @@ body::-webkit-scrollbar-thumb {
   .project-img {
     margin-top: 7rem;
     margin-right: 1rem;
+    width: 100%;
   }
   .live-btn {
     width: auto;

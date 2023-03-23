@@ -9,7 +9,6 @@ const Projects = () => {
           <h1 id="title">Projects I've worked on</h1>
         </div>
         <div className="projects-container">
-          <div>
             <Project
               photo={
                 <img
@@ -19,8 +18,8 @@ const Projects = () => {
               }
               name="Gamerconnect"
               link="https://gitlab.com/gamerconnect/module3-project-gamma"
-              text="Gamerconnect is a web app that allows gamers who want to interact with other gamers so they can squad up and play a few games. 
-          The web app allows for posting posts to the community. "
+              text="Gamerconnect is a full stack web application that allows gamers to connect with other gamers.
+              It allowes for users to create a profile, create posts, and add comments with full C.R.U.D functionality."
               tech1="React"
               tech2="FastAPI"
               tech3="Postgres"
@@ -29,37 +28,38 @@ const Projects = () => {
             <Project
               photo={
                 <img
-                  src="https://i.gyazo.com/da40bdb6e1cb7182be755156fcf73c50.png"
+                  src="https://i.gyazo.com/38e782eb76e15420fa75d86a15444fff.png"
                   alt="Advice App"
                 />
               }
               name="Advice Generator"
               link="https://github.com/Chris5613/advice-generator"
-              text="Advice Generator is a web application that uses a 3rd Party API from adviceslip, 
-              clicking on the dice button will generate a random advice that will pop 
-              up on the screen every 2 seconds on click. "
+              text="Advice Generator is a web application that uses a 3rd Party API that will generate a random advice 
+              that can be used to help you with your day. "
               tech1="React"
+              tech2=" "
+              tech3=" "
               live="https://www.christianwu.dev/advice-generator/"
             />
             <Project
               photo={
                 <img
-                  src="https://i.gyazo.com/0d3bc5983c24d8e650e7ab3f2d46a29e.jpg"
+                  src="https://i.gyazo.com/a0b31d8819d12cb12cb488611d1c8f30.png"
                   alt="weather"
                 />
               }
               name="Weather Tracker"
-              text="Weather Tracker is a web application that can be used to track the weather of any city, It sends a request to the OpenWeather API and
+              text="Weather Tracker can be used to track the weather of any city, It sends a request to the OpenWeather API and
           returns the weather data for the city that was searched for."
               link="https://github.com/Chris5613/Weather-Tracker"
               tech1="React"
               tech2="Bootstrap"
               live="https://www.christianwu.dev/Weather-Tracker/"
             />
-            <Project
+            {/* <Project
               photo={
                 <img
-                  src="https://i.gyazo.com/835c3aa09f994d16810809aee7639712.png"
+                  src="https://i.gyazo.com/7d3d198901e62d58293d79e0618dde23.png"
                   alt="User-auth"
                 />
               }
@@ -72,8 +72,7 @@ const Projects = () => {
               tech3="React"
               tech4="Node"
               live="https://f-auth.onrender.com/"
-            />
-          </div>
+            /> */}
         </div>
         <div className="divider">
           <a
