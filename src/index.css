@@ -358,7 +358,7 @@ body::-webkit-scrollbar-thumb {
     padding-top: 5rem;
   }
   .project-info p {
-    font-size: 15px;
+    font-size: 13px;
   }
   .project-info a img {
     width: 20%;
@@ -369,6 +369,9 @@ body::-webkit-scrollbar-thumb {
     margin-right: 1rem;
   }
   .live-btn {
+    width: auto;
+  }
+  #main-text {
     width: auto;
   }
 }

@@ -20,7 +20,7 @@ const Project = ({ photo, text, name, link, tech1, tech2, tech3, live,tech4 }) =
                 <h2>
                   {name}
                 </h2>
-                <p>{text}</p>
+                <p id="main-text">{text}</p>
                 <div className="tech-used">
                   <p>{tech1}</p>
                   <p className="tech">{tech2}</p>

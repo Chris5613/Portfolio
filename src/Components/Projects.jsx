@@ -29,6 +29,21 @@ const Projects = () => {
             <Project
               photo={
                 <img
+                  src="https://i.gyazo.com/da40bdb6e1cb7182be755156fcf73c50.png"
+                  alt="Advice App"
+                />
+              }
+              name="Advice Generator"
+              link="https://github.com/Chris5613/advice-generator"
+              text="Advice Generator is a web application that uses a 3rd Party API from adviceslip, 
+              clicking on the dice button will generate a random advice that will pop 
+              up on the screen every 2 seconds on click. "
+              tech1="React"
+              live="https://www.christianwu.dev/advice-generator/"
+            />
+            <Project
+              photo={
+                <img
                   src="https://i.gyazo.com/0d3bc5983c24d8e650e7ab3f2d46a29e.jpg"
                   alt="weather"
                 />
