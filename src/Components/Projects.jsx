@@ -56,7 +56,7 @@ const Projects = () => {
               tech2="Bootstrap"
               live="https://www.christianwu.dev/Weather-Tracker/"
             />
-            {/* <Project
+            <Project
               photo={
                 <img
                   src="https://i.gyazo.com/7d3d198901e62d58293d79e0618dde23.png"
@@ -72,7 +72,7 @@ const Projects = () => {
               tech3="React"
               tech4="Node"
               live="https://f-auth.onrender.com/"
-            /> */}
+            />
         </div>
         <div className="divider">
           <a
