@@ -210,8 +210,6 @@ body::-webkit-scrollbar-thumb {
 }
 
 @media (max-width: 768px) {
-
-
   .skills-container h1 {
     font-size: 40px;
   }
@@ -266,7 +264,6 @@ body::-webkit-scrollbar-thumb {
   font-size: 20px;
   font-weight: 600;
 }
-
 
 #portfolio .portfolio-item-wrapper {
   width: 75%;
@@ -369,7 +366,6 @@ body::-webkit-scrollbar-thumb {
   }
 }
 
-
 /* Contact  */
 .contact-section {
   height: auto;
@@ -433,7 +429,6 @@ body::-webkit-scrollbar-thumb {
   }
 }
 
-
 /* Footer */
 .footer-divider {
   width: auto;
@@ -446,6 +441,6 @@ body::-webkit-scrollbar-thumb {
   padding-bottom: 20px;
 }
 
-.footer-divider  p {
+.footer-divider p {
   font-size: 15px;
 }
