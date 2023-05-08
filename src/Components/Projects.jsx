@@ -14,6 +14,7 @@ const Projects = () => {
               <img
                 src="https://i.gyazo.com/1994c6b178a10e2d03fceffb8b23618a.jpg"
                 alt="Rankriddler"
+                width={600}
               />
             }
             name="Rank Riddler"
@@ -30,8 +31,9 @@ const Projects = () => {
           <Project
             photo={
               <img
-                src="https://i.gyazo.com/c4a1067650459568eb1a88484be6a4bc.png"
+                src="https://i.gyazo.com/a440aa94ad80d6f06d614d492b0c2e1c.png"
                 alt="gamerconnect"
+                width={600}
               />
             }
             name="Gamerconnect"
@@ -48,6 +50,7 @@ const Projects = () => {
               <img
                 src="https://i.gyazo.com/38e782eb76e15420fa75d86a15444fff.png"
                 alt="Advice App"
+                width={600}
               />
             }
             name="Advice Generator"

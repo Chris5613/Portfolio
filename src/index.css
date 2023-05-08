@@ -270,7 +270,7 @@ body::-webkit-scrollbar-thumb {
   margin: 0 auto;
 }
 
-#portfolio .project-img img {
+#portfolio{
   max-width: 100%;
   width: 100%;
   opacity: 1;
