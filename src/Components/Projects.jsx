@@ -12,7 +12,7 @@ const Projects = () => {
           <Project
             photo={
               <img
-                src="https://i.gyazo.com/1994c6b178a10e2d03fceffb8b23618a.jpg"
+                src="https://i.gyazo.com/54aa762b4429ce35b46c0554e5e89e46.jpg"
                 alt="Rankriddler"
                 width={600}
               />
@@ -44,23 +44,6 @@ const Projects = () => {
             tech2="FastAPI"
             tech3="Postgres"
             live="https://gamerconnect.gitlab.io/module3-project-gamma/"
-          />
-          <Project
-            photo={
-              <img
-                src="https://i.gyazo.com/38e782eb76e15420fa75d86a15444fff.png"
-                alt="Advice App"
-                width={600}
-              />
-            }
-            name="Advice Generator"
-            link="https://github.com/Chris5613/advice-generator"
-            text="Advice Generator is a web application that uses a 3rd Party API that will generate a random advice 
-              that can be used to help you with your day. "
-            tech1="React"
-            tech2=" "
-            tech3=" "
-            live="https://www.christianwu.dev/advice-generator/"
           />
         </div>
         <div className="divider">
